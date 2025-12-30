@@ -1,0 +1,159 @@
+body {
+    background: hsl(0, 0%, 8%);
+}
+
+.card {
+    background: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
+    width: 80%
+}
+
+.elements {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h2  {
+    color: white;
+    font-family: "Inter-SemiBold", sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 0.5;
+}
+
+.p1 {
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter-Regular", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.p2 {
+    color: white;
+    font-family: "Inter-VariableFont", sans-serif;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.GH {
+  display: block;        /* makes the whole area clickable */
+  background: hsl(0, 0%, 20%);
+  color: white;
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.FM {
+  display: block;        /* makes the whole area clickable */
+  background: hsl(0, 0%, 20%);
+  color: white;
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.LI {
+  display: block;        /* makes the whole area clickable */
+  background: hsl(0, 0%, 20%);
+  color: white;
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.X {
+  display: block;        /* makes the whole area clickable */
+  background: hsl(0, 0%, 20%);
+  color: white;
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.IG {
+  display: block;        /* makes the whole area clickable */
+  background: hsl(0, 0%, 20%);
+  color: white;
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100%;
+}
+
+a:hover {
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    transition: 0.3s;
+}
+
+span {
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 13px;
+}
+
+@font-face {
+    font-family: "Inter-Variable";
+    src: url("./assets/fonts/Inter-VariableFont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("./assets/fonts/static/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url("./assets/fonts/static/Inter-SemiBold.ttf") format("truetype");
+}
+
+@media (min-width: 375px) {
+    .card {
+        width: 60%;
+    }
+}
+
+@media (min-width: 425px) {
+    .card {
+        width: 55%;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card {
+        width: 30%;
+    } 
+}
+
+@media (min-width: 1440px) {
+    .card {
+        width: 25%;
+    }
+}
